@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GIF ME IT ALL</title>
+   
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+ 
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="header">
+            <div class="col-xs-12 col-md-4"></div>
+            <div class="col-xs-12 col-md-4">
+                <h1>Gif me it all</h1>
+            </div>
+            <div class="col-xs-12 col-md-4"></div>
+        </div>
+        <br>
+        <div class="row">
+            
+            <div class="jumbotron col-xs-12 col-md-12" id="buttons-view"></div>
+        </div>
+        <div class="jumbotron row">
+            <form id="character-form">
+                <label for="character-input">Enter your favorite character!</label>
+                <input type="text" id="character-input">
+                
+                <input id="add-character" type="submit" value="Name someone!">
+            </form>
+        </div>
+       
+        <div class="row">
+            <div class="col-xs-12 col-md-12" id="gifs-appear-here">
+                <p class="image">
+                    <br>
+                    <p><h2 class="rating"></h2></p>
+                    <br>
+                </p>
+            </div>
+        </div>
+        <br>
+        
+        <div class="jumbotron footer row">
+            <footer>
+                <img src="https://raw.githubusercontent.com/robrollner/gifTastic/master/assets/images/Giphy%20Attribution%20Marks/Animated%20Logos/PoweredBy_200_Horizontal_Light-Backgrounds_With_Logo.gif">robrollner2017
+            </footer>
+        </div>
+    </div>
+  
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
